@@ -1,2 +1,2 @@
-# TMpj1
+# Text Mining
 Text mining: Project 1
