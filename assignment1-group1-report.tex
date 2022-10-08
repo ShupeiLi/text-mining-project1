@@ -18,6 +18,7 @@
 \usepackage{xurl}
 \usepackage{tikz}
 
+\geometry{a4paper, left=2cm, right=2cm, top=3cm, bottom=3cm}
 \pagestyle{fancy}
 
 \fancyhead[R]{\thepage}
@@ -26,19 +27,13 @@
 \fancyfoot{}
 
 \begin{document}
-% cover
-\thispagestyle{empty}
-\begin{center}
-\Huge    Cover
-\end{center}
-
-% contents
-\newpage
-\thispagestyle{empty}
-\tableofcontents
-
-% Text
-\newpage
+\begin{flushleft}
+    \Large \textbf{Assignment 1: Text Categorization}
+\end{flushleft}
+\begin{flushleft}
+    \textbf{Group 1}\\
+\end{flushleft}
+\rule{\textwidth}{0.4pt}
 \section{Recommender systems}
 \subsection{Naive Approaches}
 
