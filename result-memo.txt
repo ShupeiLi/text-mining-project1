@@ -1,0 +1,1607 @@
+============================================================
+Data set
+Categories: 20
+Train: 11314 records.
+Test: 7532 records.
+============================================================
+Task 2 and 3: Default Parameters
+===========================count============================
+
+Naive Bayes
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.769500
+Model training and evaluating...
+Precision: 0.808222
+Recall: 0.799856
+F1: 0.785209
+
+SVM
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.742000
+Model training and evaluating...
+Precision: 0.784147
+Recall: 0.778934
+F1: 0.777214
+
+Random Forest
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.739500
+Model training and evaluating...
+Precision: 0.791332
+Recall: 0.769605
+F1: 0.768744
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.824373
+Recall: 0.820358
+F1: 0.820391
+
+SVM
+params: {'tfidf__use_idf': False}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.758000
+Model training and evaluating...
+Precision: 0.810213
+Recall: 0.796599
+F1: 0.796064
+
+Random Forest
+params: {'tfidf__use_idf': False}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.734500
+Model training and evaluating...
+Precision: 0.778829
+Recall: 0.758677
+F1: 0.756539
+===========================tf-idf===========================
+
+Naive Bayes
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.824373
+Recall: 0.820358
+F1: 0.820391
+
+SVM
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.758500
+Model training and evaluating...
+Precision: 0.806026
+Recall: 0.799507
+F1: 0.798845
+
+Random Forest
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.736500
+Model training and evaluating...
+Precision: 0.786151
+Recall: 0.764183
+F1: 0.762641
+============================================================
+============================================================
+Task 4.a: lowercase
+===========================count============================
+
+Naive Bayes
+params: {'vect__lowercase': True}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.769500
+Model training and evaluating...
+Precision: 0.808222
+Recall: 0.799856
+F1: 0.785209
+
+SVM
+params: {'vect__lowercase': True}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.745500
+Model training and evaluating...
+Precision: 0.783461
+Recall: 0.777644
+F1: 0.775974
+
+Random Forest
+params: {'vect__lowercase': True}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.741000
+Model training and evaluating...
+Precision: 0.784645
+Recall: 0.764257
+F1: 0.762500
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__lowercase': True}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.824373
+Recall: 0.820358
+F1: 0.820391
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__lowercase': True}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.751000
+Model training and evaluating...
+Precision: 0.809426
+Recall: 0.796951
+F1: 0.796081
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__lowercase': True}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.736000
+Model training and evaluating...
+Precision: 0.782376
+Recall: 0.761961
+F1: 0.760020
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__lowercase': True}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.824373
+Recall: 0.820358
+F1: 0.820391
+
+SVM
+params: {'vect__lowercase': True}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.757500
+Model training and evaluating...
+Precision: 0.809351
+Recall: 0.797601
+F1: 0.796232
+
+Random Forest
+params: {'vect__lowercase': True}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.732500
+Model training and evaluating...
+Precision: 0.787278
+Recall: 0.764645
+F1: 0.763864
+============================================================
+===========================count============================
+
+Naive Bayes
+params: {'vect__lowercase': False}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.764500
+Model training and evaluating...
+Precision: 0.813565
+Recall: 0.802384
+F1: 0.788070
+
+SVM
+params: {'vect__lowercase': False}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.743500
+Model training and evaluating...
+Precision: 0.779798
+Recall: 0.772592
+F1: 0.770088
+
+Random Forest
+params: {'vect__lowercase': False}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.730000
+Model training and evaluating...
+Precision: 0.790458
+Recall: 0.768093
+F1: 0.768517
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__lowercase': False}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.782000
+Model training and evaluating...
+Precision: 0.825506
+Recall: 0.821196
+F1: 0.821295
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__lowercase': False}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.750000
+Model training and evaluating...
+Precision: 0.800962
+Recall: 0.795771
+F1: 0.795042
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__lowercase': False}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.724000
+Model training and evaluating...
+Precision: 0.776903
+Recall: 0.754016
+F1: 0.753535
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__lowercase': False}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.782000
+Model training and evaluating...
+Precision: 0.825506
+Recall: 0.821196
+F1: 0.821295
+
+SVM
+params: {'vect__lowercase': False}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.749000
+Model training and evaluating...
+Precision: 0.804378
+Recall: 0.795202
+F1: 0.794088
+
+Random Forest
+params: {'vect__lowercase': False}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.717500
+Model training and evaluating...
+Precision: 0.774782
+Recall: 0.751889
+F1: 0.750903
+============================================================
+============================================================
+Task 4.b: stop_words
+===========================count============================
+
+Naive Bayes
+params: {'vect__stop_words': None}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.769500
+Model training and evaluating...
+Precision: 0.808222
+Recall: 0.799856
+F1: 0.785209
+
+SVM
+params: {'vect__stop_words': None}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.749500
+Model training and evaluating...
+Precision: 0.787121
+Recall: 0.780447
+F1: 0.778327
+
+Random Forest
+params: {'vect__stop_words': None}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.734500
+Model training and evaluating...
+Precision: 0.788942
+Recall: 0.767883
+F1: 0.766721
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__stop_words': None}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.824373
+Recall: 0.820358
+F1: 0.820391
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__stop_words': None}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.761000
+Model training and evaluating...
+Precision: 0.810223
+Recall: 0.797269
+F1: 0.795954
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__stop_words': None}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.735500
+Model training and evaluating...
+Precision: 0.777608
+Recall: 0.755406
+F1: 0.753227
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__stop_words': None}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.824373
+Recall: 0.820358
+F1: 0.820391
+
+SVM
+params: {'vect__stop_words': None}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.751500
+Model training and evaluating...
+Precision: 0.810175
+Recall: 0.799561
+F1: 0.797997
+
+Random Forest
+params: {'vect__stop_words': None}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 150}
+Best score: 0.736000
+Model training and evaluating...
+Precision: 0.778974
+Recall: 0.755710
+F1: 0.754028
+============================================================
+===========================count============================
+
+Naive Bayes
+params: {'vect__stop_words': 'english'}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.779000
+Model training and evaluating...
+Precision: 0.813934
+Recall: 0.804865
+F1: 0.789967
+
+SVM
+params: {'vect__stop_words': 'english'}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.796000
+Model training and evaluating...
+Precision: 0.800452
+Recall: 0.792075
+F1: 0.790559
+
+Random Forest
+params: {'vect__stop_words': 'english'}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.761000
+Model training and evaluating...
+Precision: 0.803867
+Recall: 0.784355
+F1: 0.783633
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__stop_words': 'english'}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.806500
+Model training and evaluating...
+Precision: 0.840492
+Recall: 0.834054
+F1: 0.834791
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__stop_words': 'english'}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.001}
+Best score: 0.792500
+Model training and evaluating...
+Precision: 0.795040
+Recall: 0.779131
+F1: 0.775987
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__stop_words': 'english'}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.764000
+Model training and evaluating...
+Precision: 0.803660
+Recall: 0.783113
+F1: 0.782383
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__stop_words': 'english'}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.806500
+Model training and evaluating...
+Precision: 0.840492
+Recall: 0.834054
+F1: 0.834791
+
+SVM
+params: {'vect__stop_words': 'english'}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.798000
+Model training and evaluating...
+Precision: 0.827724
+Recall: 0.821448
+F1: 0.821593
+
+Random Forest
+params: {'vect__stop_words': 'english'}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.764000
+Model training and evaluating...
+Precision: 0.802004
+Recall: 0.785731
+F1: 0.785169
+============================================================
+============================================================
+Task 4.c: analyzer
+===========================count============================
+
+Naive Bayes
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.769500
+Model training and evaluating...
+Precision: 0.808222
+Recall: 0.799856
+F1: 0.785209
+
+SVM
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.741000
+Model training and evaluating...
+Precision: 0.783356
+Recall: 0.778563
+F1: 0.776160
+
+Random Forest
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.744000
+Model training and evaluating...
+Precision: 0.787719
+Recall: 0.766563
+F1: 0.764902
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'word', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.824373
+Recall: 0.820358
+F1: 0.820391
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'word', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.750500
+Model training and evaluating...
+Precision: 0.809265
+Recall: 0.799814
+F1: 0.798747
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'word', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.742000
+Model training and evaluating...
+Precision: 0.781926
+Recall: 0.761592
+F1: 0.759696
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.824373
+Recall: 0.820358
+F1: 0.820391
+
+SVM
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.758500
+Model training and evaluating...
+Precision: 0.808204
+Recall: 0.798868
+F1: 0.798476
+
+Random Forest
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.734000
+Model training and evaluating...
+Precision: 0.786144
+Recall: 0.764439
+F1: 0.762228
+============================================================
+===========================count============================
+
+Naive Bayes
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.765500
+Model training and evaluating...
+Precision: 0.827943
+Recall: 0.812288
+F1: 0.804112
+
+SVM
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.744500
+Model training and evaluating...
+Precision: 0.807536
+Recall: 0.804045
+F1: 0.802838
+
+Random Forest
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.739000
+Model training and evaluating...
+Precision: 0.802151
+Recall: 0.777034
+F1: 0.777193
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.772000
+Model training and evaluating...
+Precision: 0.832811
+Recall: 0.827957
+F1: 0.828406
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.760000
+Model training and evaluating...
+Precision: 0.822352
+Recall: 0.815778
+F1: 0.815237
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 150}
+Best score: 0.724500
+Model training and evaluating...
+Precision: 0.784982
+Recall: 0.755448
+F1: 0.756356
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.772000
+Model training and evaluating...
+Precision: 0.832811
+Recall: 0.827957
+F1: 0.828406
+
+SVM
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.755500
+Model training and evaluating...
+Precision: 0.823280
+Recall: 0.817567
+F1: 0.817125
+
+Random Forest
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 150}
+Best score: 0.730000
+Model training and evaluating...
+Precision: 0.788156
+Recall: 0.760768
+F1: 0.762202
+============================================================
+===========================count============================
+
+Naive Bayes
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.711000
+Model training and evaluating...
+Precision: 0.807472
+Recall: 0.789137
+F1: 0.784121
+
+SVM
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.662500
+Model training and evaluating...
+Precision: 0.686124
+Recall: 0.673877
+F1: 0.666266
+
+Random Forest
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 150}
+Best score: 0.592500
+Model training and evaluating...
+Precision: 0.745881
+Recall: 0.694468
+F1: 0.705147
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'word', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.712000
+Model training and evaluating...
+Precision: 0.806134
+Recall: 0.801166
+F1: 0.801349
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'word', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.687500
+Model training and evaluating...
+Precision: 0.775288
+Recall: 0.772183
+F1: 0.771252
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'word', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.588000
+Model training and evaluating...
+Precision: 0.731751
+Recall: 0.693067
+F1: 0.700208
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.712000
+Model training and evaluating...
+Precision: 0.806134
+Recall: 0.801166
+F1: 0.801349
+
+SVM
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.686500
+Model training and evaluating...
+Precision: 0.774271
+Recall: 0.772084
+F1: 0.770650
+
+Random Forest
+params: {'vect__analyzer': 'word', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.591000
+Model training and evaluating...
+Precision: 0.732368
+Recall: 0.696663
+F1: 0.702850
+============================================================
+===========================count============================
+
+Naive Bayes
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.153500
+Model training and evaluating...
+Precision: 0.170532
+Recall: 0.163788
+F1: 0.151360
+
+SVM
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.001}
+Best score: 0.169000
+Model training and evaluating...
+Precision: 0.253450
+Recall: 0.179295
+F1: 0.141307
+
+Random Forest
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 150}
+Best score: 0.251500
+Model training and evaluating...
+Precision: 0.289665
+Recall: 0.294259
+F1: 0.281314
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.131500
+Model training and evaluating...
+Precision: 0.216471
+Recall: 0.148062
+F1: 0.116596
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.189000
+Model training and evaluating...
+Precision: 0.317322
+Recall: 0.238282
+F1: 0.204326
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 100}
+Best score: 0.301500
+Model training and evaluating...
+Precision: 0.299659
+Recall: 0.311438
+F1: 0.294200
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.131500
+Model training and evaluating...
+Precision: 0.216471
+Recall: 0.148062
+F1: 0.116596
+
+SVM
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.001}
+Best score: 0.174000
+Model training and evaluating...
+Precision: 0.278337
+Recall: 0.217697
+F1: 0.174361
+
+Random Forest
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.311500
+Model training and evaluating...
+Precision: 0.326247
+Recall: 0.330438
+F1: 0.311904
+============================================================
+===========================count============================
+
+Naive Bayes
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.405500
+Model training and evaluating...
+Precision: 0.401113
+Recall: 0.387036
+F1: 0.374516
+
+SVM
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.320000
+Model training and evaluating...
+Precision: 0.519424
+Recall: 0.452232
+F1: 0.434869
+
+Random Forest
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.452000
+Model training and evaluating...
+Precision: 0.538313
+Recall: 0.526120
+F1: 0.514572
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.357000
+Model training and evaluating...
+Precision: 0.467459
+Recall: 0.392391
+F1: 0.385283
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.380500
+Model training and evaluating...
+Precision: 0.589232
+Recall: 0.461836
+F1: 0.445841
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.481000
+Model training and evaluating...
+Precision: 0.555101
+Recall: 0.543318
+F1: 0.531139
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.357000
+Model training and evaluating...
+Precision: 0.467459
+Recall: 0.392391
+F1: 0.385283
+
+SVM
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.399000
+Model training and evaluating...
+Precision: 0.648543
+Recall: 0.419020
+F1: 0.432447
+
+Random Forest
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.477000
+Model training and evaluating...
+Precision: 0.558882
+Recall: 0.541980
+F1: 0.527322
+============================================================
+===========================count============================
+
+Naive Bayes
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.450500
+Model training and evaluating...
+Precision: 0.458039
+Recall: 0.438831
+F1: 0.428149
+
+SVM
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.495500
+Model training and evaluating...
+Precision: 0.611948
+Recall: 0.587431
+F1: 0.584081
+
+Random Forest
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.461000
+Model training and evaluating...
+Precision: 0.544059
+Recall: 0.531395
+F1: 0.519228
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.475000
+Model training and evaluating...
+Precision: 0.567714
+Recall: 0.505026
+F1: 0.499635
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.531000
+Model training and evaluating...
+Precision: 0.604809
+Recall: 0.578287
+F1: 0.569344
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.487500
+Model training and evaluating...
+Precision: 0.562516
+Recall: 0.550712
+F1: 0.537416
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.475000
+Model training and evaluating...
+Precision: 0.567714
+Recall: 0.505026
+F1: 0.499635
+
+SVM
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.543500
+Model training and evaluating...
+Precision: 0.591577
+Recall: 0.582285
+F1: 0.572021
+
+Random Forest
+params: {'vect__analyzer': 'char', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.475500
+Model training and evaluating...
+Precision: 0.569443
+Recall: 0.554872
+F1: 0.541010
+============================================================
+===========================count============================
+
+Naive Bayes
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.153000
+Model training and evaluating...
+Precision: 0.170010
+Recall: 0.162577
+F1: 0.149899
+
+SVM
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.144000
+Model training and evaluating...
+Precision: 0.234267
+Recall: 0.191536
+F1: 0.166090
+
+Random Forest
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.243500
+Model training and evaluating...
+Precision: 0.297130
+Recall: 0.301451
+F1: 0.288682
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.117500
+Model training and evaluating...
+Precision: 0.142239
+Recall: 0.142627
+F1: 0.110244
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.169000
+Model training and evaluating...
+Precision: 0.285530
+Recall: 0.206591
+F1: 0.157428
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.309000
+Model training and evaluating...
+Precision: 0.334492
+Recall: 0.332108
+F1: 0.314451
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.117500
+Model training and evaluating...
+Precision: 0.142239
+Recall: 0.142627
+F1: 0.110244
+
+SVM
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.116500
+Model training and evaluating...
+Precision: 0.246400
+Recall: 0.177514
+F1: 0.151348
+
+Random Forest
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 1)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.307500
+Model training and evaluating...
+Precision: 0.331191
+Recall: 0.327404
+F1: 0.309818
+============================================================
+===========================count============================
+
+Naive Bayes
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.407000
+Model training and evaluating...
+Precision: 0.397901
+Recall: 0.386860
+F1: 0.374472
+
+SVM
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.283500
+Model training and evaluating...
+Precision: 0.446537
+Recall: 0.400665
+F1: 0.353722
+
+Random Forest
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.455000
+Model training and evaluating...
+Precision: 0.529289
+Recall: 0.519956
+F1: 0.506716
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.309500
+Model training and evaluating...
+Precision: 0.471456
+Recall: 0.366784
+F1: 0.355718
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.305000
+Model training and evaluating...
+Precision: 0.582203
+Recall: 0.408129
+F1: 0.397320
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.479500
+Model training and evaluating...
+Precision: 0.562851
+Recall: 0.547296
+F1: 0.534195
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.309500
+Model training and evaluating...
+Precision: 0.471456
+Recall: 0.366784
+F1: 0.355718
+
+SVM
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.291000
+Model training and evaluating...
+Precision: 0.563236
+Recall: 0.428287
+F1: 0.411953
+
+Random Forest
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (1, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.480500
+Model training and evaluating...
+Precision: 0.564146
+Recall: 0.548576
+F1: 0.535300
+============================================================
+===========================count============================
+
+Naive Bayes
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.452500
+Model training and evaluating...
+Precision: 0.460380
+Recall: 0.443460
+F1: 0.433047
+
+SVM
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.001}
+Best score: 0.480000
+Model training and evaluating...
+Precision: 0.525064
+Recall: 0.502836
+F1: 0.494260
+
+Random Forest
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.460000
+Model training and evaluating...
+Precision: 0.549824
+Recall: 0.538469
+F1: 0.525576
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char_wb', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.473500
+Model training and evaluating...
+Precision: 0.567745
+Recall: 0.502024
+F1: 0.496803
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char_wb', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.546000
+Model training and evaluating...
+Precision: 0.611141
+Recall: 0.586429
+F1: 0.583748
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__analyzer': 'char_wb', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.482000
+Model training and evaluating...
+Precision: 0.562192
+Recall: 0.549490
+F1: 0.537671
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.473500
+Model training and evaluating...
+Precision: 0.567745
+Recall: 0.502024
+F1: 0.496803
+
+SVM
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.550500
+Model training and evaluating...
+Precision: 0.599852
+Recall: 0.575611
+F1: 0.569248
+
+Random Forest
+params: {'vect__analyzer': 'char_wb', 'vect__ngram_range': (2, 2)}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.484000
+Model training and evaluating...
+Precision: 0.560538
+Recall: 0.548942
+F1: 0.535409
+============================================================
+============================================================
+Task 4.d: max_features
+===========================count============================
+
+Naive Bayes
+params: {'vect__max_features': None}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.769500
+Model training and evaluating...
+Precision: 0.808222
+Recall: 0.799856
+F1: 0.785209
+
+SVM
+params: {'vect__max_features': None}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.735000
+Model training and evaluating...
+Precision: 0.781749
+Recall: 0.775656
+F1: 0.774554
+
+Random Forest
+params: {'vect__max_features': None}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 150}
+Best score: 0.736500
+Model training and evaluating...
+Precision: 0.786935
+Recall: 0.763790
+F1: 0.762856
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__max_features': None}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.824373
+Recall: 0.820358
+F1: 0.820391
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__max_features': None}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.752500
+Model training and evaluating...
+Precision: 0.809728
+Recall: 0.800773
+F1: 0.799476
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__max_features': None}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.732000
+Model training and evaluating...
+Precision: 0.780841
+Recall: 0.759905
+F1: 0.758230
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__max_features': None}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.824373
+Recall: 0.820358
+F1: 0.820391
+
+SVM
+params: {'vect__max_features': None}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.758500
+Model training and evaluating...
+Precision: 0.809166
+Recall: 0.798769
+F1: 0.797988
+
+Random Forest
+params: {'vect__max_features': None}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.737000
+Model training and evaluating...
+Precision: 0.781630
+Recall: 0.757691
+F1: 0.755466
+============================================================
+===========================count============================
+
+Naive Bayes
+params: {'vect__max_features': 65000}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.769500
+Model training and evaluating...
+Precision: 0.805866
+Recall: 0.796911
+F1: 0.782926
+
+SVM
+params: {'vect__max_features': 65000}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.754000
+Model training and evaluating...
+Precision: 0.786655
+Recall: 0.778303
+F1: 0.775800
+
+Random Forest
+params: {'vect__max_features': 65000}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.739000
+Model training and evaluating...
+Precision: 0.780600
+Recall: 0.762203
+F1: 0.760488
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__max_features': 65000}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.821923
+Recall: 0.817264
+F1: 0.817636
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__max_features': 65000}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.757500
+Model training and evaluating...
+Precision: 0.807868
+Recall: 0.800420
+F1: 0.799960
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__max_features': 65000}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.737500
+Model training and evaluating...
+Precision: 0.776916
+Recall: 0.756589
+F1: 0.755405
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__max_features': 65000}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.821923
+Recall: 0.817264
+F1: 0.817636
+
+SVM
+params: {'vect__max_features': 65000}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.754000
+Model training and evaluating...
+Precision: 0.807132
+Recall: 0.799246
+F1: 0.798433
+
+Random Forest
+params: {'vect__max_features': 65000}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.730000
+Model training and evaluating...
+Precision: 0.780060
+Recall: 0.761073
+F1: 0.759380
+============================================================
+===========================count============================
+
+Naive Bayes
+params: {'vect__max_features': 115000}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.01}
+Best score: 0.769500
+Model training and evaluating...
+Precision: 0.808484
+Recall: 0.798930
+F1: 0.784630
+
+SVM
+params: {'vect__max_features': 115000}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.1}
+Best score: 0.751000
+Model training and evaluating...
+Precision: 0.780195
+Recall: 0.777027
+F1: 0.774736
+
+Random Forest
+params: {'vect__max_features': 115000}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.744500
+Model training and evaluating...
+Precision: 0.797122
+Recall: 0.772829
+F1: 0.771879
+=============================tf=============================
+
+Naive Bayes
+params: {'tfidf__use_idf': False, 'vect__max_features': 115000}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.824173
+Recall: 0.819947
+F1: 0.820060
+
+SVM
+params: {'tfidf__use_idf': False, 'vect__max_features': 115000}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.745000
+Model training and evaluating...
+Precision: 0.808095
+Recall: 0.800158
+F1: 0.799499
+
+Random Forest
+params: {'tfidf__use_idf': False, 'vect__max_features': 115000}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.727000
+Model training and evaluating...
+Precision: 0.783404
+Recall: 0.764279
+F1: 0.761905
+===========================tf-idf===========================
+
+Naive Bayes
+params: {'vect__max_features': 115000}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.784500
+Model training and evaluating...
+Precision: 0.824173
+Recall: 0.819947
+F1: 0.820060
+
+SVM
+params: {'vect__max_features': 115000}
+Parameter tuning...
+Best parameters: {'clf__alpha': 0.0001}
+Best score: 0.753000
+Model training and evaluating...
+Precision: 0.807442
+Recall: 0.798298
+F1: 0.797268
+
+Random Forest
+params: {'vect__max_features': 115000}
+Parameter tuning...
+Best parameters: {'clf__n_estimators': 200}
+Best score: 0.744500
+Model training and evaluating...
+Precision: 0.779478
+Recall: 0.758468
+F1: 0.756971
+============================================================
